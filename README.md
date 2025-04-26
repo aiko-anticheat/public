@@ -1,120 +1,121 @@
-# 📌 AikoAc (AntiCheat) - Complete Guide
 
-## 🚀 Introduction
+# 📌 AikoAc (AntiCheat) - Guia Completo 
 
-**AikoAc** is an advanced anti-cheat system developed for **FiveM**, ensuring server security and integrity. It provides powerful tools for **monitoring**, **detection**, and **mitigation** of cheats, as well as administrative functionalities for efficient server management.
+## 🚀 Introdução
 
-The `/aiko` command is the main interface of AikoAc, allowing administrators and moderators to execute actions directly in the game.
+O **AikoAc** é um sistema anticheat avançado desenvolvido para o **FiveM**, garantindo a segurança e integridade do servidor. Ele oferece ferramentas poderosas para **monitoramento**, **detecção** e **mitigação** de trapaças, além de funcionalidades administrativas para uma gestão eficiente do servidor.
+
+O comando `/aiko` é a principal interface do AikoAc, permitindo que administradores e moderadores executem ações diretamente dentro do jogo.
 
 ---
 
-## 🎮 Command Usage
+## 🎮 Uso do Comando
 
-The command follows the following syntax:
+O comando segue a seguinte sintaxe:
 
 ```bash
-/aiko [subcommand] [parameters]
+/aiko [subcomando] [parâmetros]
 ```
 
-Each subcommand has a specific function and may require additional parameters.
+Cada subcomando possui uma função específica e pode exigir parâmetros adicionais.
 
 ---
 
-## 🔹 Available Subcommands
+## 🔹 Subcomandos Disponíveis
 
 ### 🎯 1. **info**
-Displays detailed information about the player who executed the command.
+Exibe informações detalhadas sobre o jogador que executou o comando.
 
 ```bash
 /aiko info
 ```
 
 ### 📋 2. **menu**
-Opens the AikoAc system menu for the player (requires proper permission).
+Abre o menu do sistema AikoAc para o jogador (requer permissão adequada).
 
 ```bash
 /aiko menu
 ```
 
 ### 🛡️ 3. **wall**
-Enables or disables the "wallhack" feature in AikoAc for the player (requires proper permission).
+Ativa ou desativa a funcionalidade de "wallhack" no AikoAc para o jogador (requer permissão adequada).
 
 ```bash
 /aiko wall
 ```
 
 ### 👑 4. **setowner [playerId]**
-Sets a player as the server owner (requires permission).
+Define um jogador como dono do servidor (requer permissão).
 
 ```bash
 /aiko setowner 123
 ```
 
-### ⚙️ 5. **setperm [permission] [playerId]**
-Modifies a player's permission. Available permissions: `owner`, `administrator`, `moderator`, `support`, `user`.
+### ⚙️ 5. **setperm [permissão] [playerId]**
+Modifica a permissão de um jogador. Permissões disponíveis: `owner`, `administrator`, `moderator`, `support`, `user`.
 
 ```bash
 /aiko setperm administrator 123
 ```
 
 ### 🔨 6. **ban [playerId]**
-Bans a player from the server (requires permission).
+Bane um jogador do servidor (requer permissão).
 
 ```bash
 /aiko ban 123
 ```
 
 ### 🎫 7. **unban [playerId]**
-Unbans a player from the server (requires permission).
+Remove o banimento de um jogador no servidor (requer permissão).
 
 ```bash
 /aiko unban 123
 ```
 
 ### ✨ 8. **tp [playerId]**
-Teleports the player who executed the command to another player.
+Teletransporta o jogador que executou o comando até outro jogador.
 
 ```bash
 /aiko tp 123
 ```
 
 ### 🔄 9. **pull [playerId]**
-Pulls a player to the position of the player who executed the command.
+Puxa um jogador para a posição do jogador que executou o comando.
 
 ```bash
 /aiko pull 123
 ```
 
 ### 🔄 10. **print [playerId]**
-Take a screenshot of the player's screen according to the provided ID.
+Tira uma captura de tela da tela do jogador informado.
 
 ```bash
 /aiko print 123
 ```
 
 ### 🏙️ 11. **deleteAllPeds**
-Removes all NPCs from the server (requires permission).
+Remove todos os NPCs do servidor (requer permissão).
 
 ```bash
 /aiko deleteAllPeds
 ```
 
 ### 🚗 12. **deleteAllVehicles**
-Removes all vehicles from the server (requires permission).
+Remove todos os veículos do servidor (requer permissão).
 
 ```bash
 /aiko deleteAllVehicles
 ```
 
 ### 📦 13. **deleteAllObjects**
-Removes all objects from the server (requires permission).
+Remove todos os objetos do servidor (requer permissão).
 
 ```bash
 /aiko deleteAllObjects
 ```
 
 ### ❌ 14. **uninstall**
-Uninstalls AikoAc dependencies (server console only).
+Desinstala as dependências do AikoAc (somente no console do servidor).
 
 ```bash
 /aiko uninstall
@@ -122,33 +123,33 @@ Uninstalls AikoAc dependencies (server console only).
 
 ---
 
-## 🔑 Permissions
+## 🔑 Permissões
 
-Each subcommand requires a specific permission level:
+Cada subcomando exige um nível específico de permissão:
 
-- **👑 owner** - Server owner
-- **🔧 administrator** - Administrator
-- **🛡️ moderator** - Moderator
-- **📞 support** - Support
-- **🎮 user** - Regular player
-
----
-
-## 📌 Notes
-
-✔️ AikoAc **detects suspicious activities in real-time** and can take automatic actions to prevent cheating.
-✔️ Some commands **cannot be executed from the server console**.
-✔️ If a player **does not have permission** to execute a command, they will receive an error message.
-✔️ The `/aiko` command without parameters will display the available commands.
+- **👑 owner** - Dono do servidor
+- **🔧 administrator** - Administrador
+- **🛡️ moderator** - Moderador
+- **📞 support** - Suporte
+- **🎮 user** - Jogador comum
 
 ---
 
-## 🎯 Conclusion
+## 📌 Observações
 
-**AikoAc** is a **complete and efficient** solution to ensure a **safe and cheat-free** gaming environment. With its various features, it provides **full control** over the server, protecting game integrity and facilitating administration.
+✔️ O AikoAc **detecta atividades suspeitas em tempo real** e pode tomar ações automáticas para impedir trapaças.  
+✔️ Alguns comandos **não podem ser executados pelo console do servidor**.  
+✔️ Caso o jogador **não tenha permissão** para executar um comando, ele receberá uma mensagem de erro.  
+✔️ O comando `/aiko` sem parâmetros exibirá os comandos disponíveis.
 
-🔹 **Advanced protection** against cheaters.
-🔹 **Administrative tools** for efficient management.
-🔹 **Robust permission system** for enhanced security.
+---
 
-➡️ **Keep your server safe with AikoAc!** 🚀
+## 🎯 Conclusão
+
+O **AikoAc** é uma solução **completa e eficiente** para garantir um ambiente de jogo **seguro e livre de trapaças**. Com seus diversos recursos, ele oferece **controle total** sobre o servidor, protegendo a integridade do jogo e facilitando a administração.
+
+🔹 **Proteção avançada** contra trapaceiros.  
+🔹 **Ferramentas administrativas** para uma gestão eficiente.  
+🔹 **Sistema robusto de permissões** para segurança aprimorada.
+
+➡️ **Mantenha seu servidor seguro com o AikoAc!** 🚀
