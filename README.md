@@ -1,4 +1,3 @@
-
 # 📌 AikoAc (AntiCheat) - Guia Completo 
 
 ## 🚀 Introdução
@@ -44,81 +43,102 @@ Ativa ou desativa a funcionalidade de "wallhack" no AikoAc para o jogador (reque
 /aiko wall
 ```
 
-### 👑 4. **setowner [playerId]**
+### 👑 4. **setowner [id]**
 Define um jogador como dono do servidor (requer permissão).
 
 ```bash
 /aiko setowner 123
 ```
 
-### ⚙️ 5. **setperm [permissão] [playerId]**
-Modifica a permissão de um jogador. Permissões disponíveis: `owner`, `administrator`, `moderator`, `support`, `user`.
+### ⚙️ 5. **setperm [permissão] [id]**
+Modifica a permissão de um jogador. Permissões disponíveis: `owner`, `admin`, `mod`, `sup`, `user`.
 
 ```bash
-/aiko setperm administrator 123
+/aiko setperm admin 123
 ```
 
-### 🔨 6. **ban [playerId]**
+### 🔨 6. **ban [id]**
 Bane um jogador do servidor (requer permissão).
 
 ```bash
 /aiko ban 123
 ```
 
-### 🎫 7. **unban [playerId]**
+### 🎫 7. **unban [id]**
 Remove o banimento de um jogador no servidor (requer permissão).
 
 ```bash
 /aiko unban 123
 ```
 
-### ✨ 8. **tp [playerId]**
+### 👀 8. **spec [id]**
+Começa a espectar (assistir) um jogador informado.
+
+```bash
+/aiko spec 123
+```
+
+### ✨ 9. **tp [id]**
 Teletransporta o jogador que executou o comando até outro jogador.
 
 ```bash
 /aiko tp 123
 ```
 
-### 🔄 9. **pull [playerId]**
+### 🔄 10. **pull [id]**
 Puxa um jogador para a posição do jogador que executou o comando.
 
 ```bash
 /aiko pull 123
 ```
 
-### 🔄 10. **print [playerId]**
+### 📸 11. **print [id]**
 Tira uma captura de tela da tela do jogador informado.
 
 ```bash
 /aiko print 123
 ```
 
-### 🏙️ 11. **deleteAllPeds**
+### 🏙️ 12. **deleteAllPeds**
 Remove todos os NPCs do servidor (requer permissão).
 
 ```bash
 /aiko deleteAllPeds
 ```
 
-### 🚗 12. **deleteAllVehicles**
+### 🚗 13. **deleteAllVehicles**
 Remove todos os veículos do servidor (requer permissão).
 
 ```bash
 /aiko deleteAllVehicles
 ```
 
-### 📦 13. **deleteAllObjects**
+### 📦 14. **deleteAllObjects**
 Remove todos os objetos do servidor (requer permissão).
 
 ```bash
 /aiko deleteAllObjects
 ```
 
-### ❌ 14. **uninstall**
-Desinstala as dependências do AikoAc (somente no console do servidor).
+### 🏙️ 15. **deletePedsInArea**
+Remove todos os NPCs de uma área especificada (requer permissão).
 
 ```bash
-/aiko uninstall
+/aiko deletePedsInArea
+```
+
+### 🚗 16. **deleteVehiclesInArea**
+Remove todos os veículos de uma área especificada (requer permissão).
+
+```bash
+/aiko deleteVehiclesInArea
+```
+
+### 📦 17. **deleteObjectsInArea**
+Remove todos os objetos de uma área especificada (requer permissão).
+
+```bash
+/aiko deleteObjectsInArea
 ```
 
 ---
@@ -128,9 +148,9 @@ Desinstala as dependências do AikoAc (somente no console do servidor).
 Cada subcomando exige um nível específico de permissão:
 
 - **👑 owner** - Dono do servidor
-- **🔧 administrator** - Administrador
-- **🛡️ moderator** - Moderador
-- **📞 support** - Suporte
+- **🔧 admin** - Administrador
+- **🛡️ mod** - Moderador
+- **📞 sup** - Suporte
 - **🎮 user** - Jogador comum
 
 ---
