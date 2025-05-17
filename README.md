@@ -34,11 +34,11 @@ Remove o banimento de um jogador no servidor (executado **exclusivamente via con
 
 Cada subcomando exige um nível específico de permissão:
 
-* **👑 owner** - Dono do servidor
-* **🔧 admin** - Administrador
-* **🛡️ mod** - Moderador
-* **📞 sup** - Suporte
-* **🎮 user** - Jogador comum
+* **👑 Dono**
+* **🔧 Administrador**
+* **🛡️ Moderador**
+* **📞 Suporte**
+* **🎮 Usuario**
 
 ---
 
